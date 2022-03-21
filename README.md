@@ -1,4 +1,4 @@
-Fontello - icon font scissors
+Fontello - создание своего иконочного шрифта
 =============================
 
 [![CI](https://github.com/fontello/fontello/workflows/CI/badge.svg?branch=master)](https://github.com/fontello/fontello/actions)
@@ -8,24 +8,23 @@ website: [fontello.com](https://fontello.com/), help: [wiki](https://github.com/
 
 [![](https://opencollective.com/puzrin/tiers/baker.svg?width=770)](https://opencollective.com/puzrin#category-CONTRIBUTE)
 
-This tool lets you combine icon webfonts for your own project. With fontello you can:
+Этот инструмент позволяет комбинировать иконочные веб-шрифты для вашего собственного проекта. С помощью Fontello вы можете:
 
-1. shrink glyph collections, minimizing font size
-2. merge symbols from several fonts into a single file
-3. access large sets of professional-grade open source icons
+1. сокращать коллекции глифов, уменьшая размер шрифта
+2. объединить символы из нескольких шрифтов в один файл
+3. доступ к большим наборам профессиональных иконок с открытым исходным кодом
 
 
-## Developers API
+## API разработчиков
 
-Fontello allows easy scripting, to implement different convenient features:
+Fontello позволяет легко создавать сценарии для реализации различных удобных функций:
 
-1. Open site from command line, with your configuration, and import edited project
-    - [Makefile example](https://gist.github.com/puzrin/5537065). That's a live working code, used
-      for development of fontello itself.
-2. Writing website plugins, to import/export icons via admin panel.
+1. Откройте сайт из командной строки с вашей конфигурацией и импортируйте отредактированный проект.
+    - [Makefile example] (https://gist.github.com/puzrin/5537065). Это живой рабочий код, используемый
+      для разработки самого fontello.
+2. Написание плагинов для сайта, для импорта/экспорта иконок через админку.
 
-When more examples available, those will be added here.
-
+Когда появится больше примеров, они будут добавлены сюда.
 
 ### API methods
 
